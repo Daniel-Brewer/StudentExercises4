@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StudentExercises4.Models
 {
-    class Instructor
+    public class Instructor
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

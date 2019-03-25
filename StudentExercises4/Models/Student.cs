@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StudentExercises4.Models
 {
-    class Student
+    public class Student
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -15,3 +15,4 @@ namespace StudentExercises4.Models
         public List<Exercise> Exercises { get; set; }
     }
 }
+

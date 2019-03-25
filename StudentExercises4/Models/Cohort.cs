@@ -4,9 +4,11 @@ using System.Text;
 
 namespace StudentExercises4.Models
 {
-    class Cohort
+    public class Cohort
     {
         public int Id { get; set; }
         public string Name { get; set; }
     }
 }
+
+
